@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> table with rawspan </title>
+</head>
+<body>
+    <table border="1">
+        <caption> Invoice </caption>
+        <thead>
+            <tr>
+                <th> Item/Desc</th>
+                <th> Qty </th>
+                <th> @ </th>
+                <th> Price </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> 
+                <td> Paperclips(Box)</td>
+                <td> 100 </td>
+                <td> 1.15</td>
+                <td> 115.00</td>
+            </tr>
+            <tr>
+                <td> Paper(Case)</td>
+                <td> 10 </td>
+                <td> 45.99 </td>
+                <td> 459.90 </td>
+            </tr>
+            <tr>
+                <td> WastePaper Baskets </td>
+                <td> 2 </td>
+                <td> 17.99 </td>
+                <td> 35.98 </td>
+            </tr>
+            <tr>
+                <th colspan="3"> SubTotal</th>
+                <td> 610.88</td>
+            </tr>
+            <tr>
+                <th colspan="2">Tax</th>
+                <td> 7% </td>
+                <td> 42.76 </td> 
+            </tr>
+            <tr> 
+                <th colspan="3"> Total </th>
+                <td> 653.64 </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border ="1">
+        <caption> Favourite And Least Favourite Things </caption>
+        <thead>
+            <tr>
+                <th> </th>
+                <th> </th>
+                <th> Bob </th>
+                <th> Alice </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th rowspan="2"> Favourite</th>
+                <th>Color</th>
+                <td> Blue</td>
+                <td> Purple</td>
+            </tr>
+            <tr>
+                <th> Flavor</th>
+                <td> Banana </td>
+                <td> Chocolate </td>
+            </tr>
+            <tr>
+                <th rowspan="2"> Least Favourite </th>
+                <th> Color</th>
+                <td> Yellow</td>
+                <td> Pink</td>
+            </tr>
+            <tr>
+                <th> Flavor</th>
+                <td> Mint </td>
+                <td> Walnut</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <caption> Time Table</caption>
+        <thead>
+            <th colspan="6"> Time Table </th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="6"> Hours </th>
+                <th>Mon</th>
+                <th> Tue </th>
+                <th> Wed </th>
+                <th> Thu </th>
+                <th> Fri </th>
+            </tr>
+            <tr>
+                <td> computer</td>
+                <td> Maths</td>
+                <td> Sci</td>
+                <td> sst</td>
+                <td> arts</td>
+            </tr>
+            <tr>
+                <td> computer</td>
+                <td> Maths</td>
+                <td> Sci</td>
+                <td> sst</td>
+                <td> arts</td>
+            </tr>
+            <tr> 
+                <th colspan="5"> LUNCH </th>
+            </tr>
+            <tr>
+                <td> computer</td>
+                <td> Maths</td>
+                <td> Sci</td>
+                <td> sst</td>
+                <td rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td> computer</td>
+                <td> Maths</td>
+                <td> Sci</td>
+                <td> sst</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th style="padding: 5px;" colspan="4"> TITLE</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th colspan="2"> subtitle </th>
+                <th colspan="2"> subtitle </th>
+            </tr>
+            <tr>
+                <td> 1 item </td>
+                <td> 123</td>
+                <td> 1 item </td>
+                <td> 123</td>
+            </tr>
+            <tr>
+                <td> 1 item </td>
+                <td> 123</td>
+                <td> 1 item </td>
+                <td> 123</td>
+            </tr>
+            <tr>
+                <td> 1 item </td>
+                <td> 123</td>
+                <td> 1 item </td>
+                <td> 123</td>
+            </tr>
+            <tr>
+                <th colspan="2"> subtitle </th>
+                <th colspan="2"> subtitle </th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
